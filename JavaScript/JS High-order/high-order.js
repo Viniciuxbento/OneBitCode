@@ -32,3 +32,14 @@ for(let i = 0; i < lista.length; i++){//crio o indice
     exibirElemento(lista[i], i , lista)//chamo a função e passo como parametro o elemento(chamado pela posição dele na array), passo o indice e a array completa
 }
 
+//calback 
+
+lista.forEach(exibirElemento)
+
+lista.forEach(function (elemento, indice, array){
+    console.log({
+        indice , 
+        elemento ,
+         array
+    })
+})
