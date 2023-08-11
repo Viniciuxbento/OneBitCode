@@ -48,8 +48,9 @@ const orcs = personagens.filter(function(personagem){
     return personagens.raca ==="Orc"
 })
 
-///A PRINCIPAL DIFERENÇA ENTRE E FILTER E MAP, É QUE FILTER CRIA UMA ARRAY NOVA E MAP APENAS SERVE PARA FILTRAR A ARRAY EXISTNTE??????
+///
 
+//REDUCE
 const nivelTotal  = personagens.reduce(function(valorAcumulado, personagem){
     return valorAcumulado + personagem.nivel
 }, 0)
@@ -66,3 +67,17 @@ const racas = personagens.reduce(function(valorAcumulado, personagem){
 },{})
 
 console.log(racas)
+
+// map serve para aplicar funções nos elementos das arrays
+// filter cria uma função para ver quais itens tem os criterios requisitados nas funções
+
+
+
+
+//SORT
+
+const personagensOrdenados = personagens.sort(function(a,b){
+    return a.nivel - b.nivel //nivel por referencia ao nivel do personagem (sse quiser ordem decrescente inverter o "b" e o "a")
+})
+//ESSA PROPRIEDADE MODIFICA A ARRAY, SE QUISER QUE NÃO MODIFIQUE, APENAS USAR SPLICE()
+
