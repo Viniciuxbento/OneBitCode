@@ -23,22 +23,23 @@ function criarNovaVaga(vaga){
         }
     }
 }
-function olharVagaSelecionada(opcao){
-    if(opcaoSelecionada === "2"){
-        let indiceSolicitado = prompt(`Escolha uma vaga para olhar: \n ${listaDeVagas} ` )
-        if(indiceSolicitado < opcaoSelecionada.length+1){
-            alert(opcaoSelecionada[indiceSolicitado])
-        }else{
-            alert("Opcao invalida")
-            olharVagaSelecionada()
-        }
-        
-    }
+function olharVagaSelecionada(indice){
+    if(opcaoSelecionada ==="2"){
+    indice = prompt("Qual vaga voce quer visualizar?\n" + listaDeVagas)
+    indice = -1 
+    vaga =listaDeVagas.slice(indice)
+    alert(vaga)
+    olharVagaSelecionada()
+}
 
+    
+    
+
+     
 }
 do{opcaoSelecionada = prompt("Segue a baixo a lista de vagas disponiveis:\n\n" + listaDeVagas + "\n\n1- Criar uma nova vaga.\n2-Visualizar uma vaga.\n3-Inscrever canditado numa vaga.\n4-Exluir uma vaga.\n5-Sair.")
 
 criarNovaVaga()
-olharVagaSelecionada()
+
 
 }while(opcaoSelecionada !== "5")
