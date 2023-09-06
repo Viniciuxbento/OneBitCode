@@ -10,6 +10,7 @@ class dataUser {
 const vinicius = new dataUser("Vinicius Bento", "vinicius@hotmail.com", "1234")
 
 function infoUser(emailLogin, senhaLogin) {
+
     
     if (emailLogin == vinicius.email && senhaLogin == vinicius.senha) {
         console.log(`Parabéns ${vinicius.fullName}, você entrou na sua conta`)
@@ -19,7 +20,6 @@ function infoUser(emailLogin, senhaLogin) {
     }
 
 }
-
 
 
 
