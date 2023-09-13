@@ -18,6 +18,8 @@ function imc(peso,altura){
 }
 
 
+
+
 imc(90,1.76).then((imc)=>{
     if(imc < 18.5){
         console.log(`Seu IMC é de ${imc.toFixed(2)} , portanto está com IMC magresa`)
