@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças pessoais</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <form id="containerFazerTransferencia" action=" http://localhost:3000/transferencias" method="post">
+        
+        <label class="descricaoTransferenciafor="descricaoTransferencia">Descrição transação</label><br>
+        <input class="descricaoTransferencia" type="text"><br>
+
+        <label class="valorTransferencia" for="valorTransferencia">Valor</label><br>
+        <input class="valorTransferencia" type="number" name="" id=""><br>
+
+        <button id="transferir" type="submit">Transferir</button>
+    </form>
+
+    <h1>Transferências concluidas</h1>
+    <article id="transferenciasConcluidas">
+    </article>
+
+
+
+</body>
+
+</html>

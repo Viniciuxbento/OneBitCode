@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Patua+One&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: #282828a2;
+}
+#containerFazerTransferencia{
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #282828;
+    color: white;
+    border-radius: 5px;
+
+    text-align: center;
+
+    height: 200px;
+    width: 300px;
+   
+}
+.descricaoTransferencia{
+    margin: 10px;
+}
+
+.valorTransferencia{
+    margin: 10px;    
+}
+
+#transferir{
+    margin: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section{
+
+
+}
