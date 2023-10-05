@@ -1,12 +1,10 @@
-function sum(a,b){
-  return a*b
-}
-
+import Somar from "./Sum"
+import Titulo from "./Title"
 export default function App(){
   return(
     <div>
-      <h1>OLAA MUNDO</h1>
-      <h2>retornara o valor {sum(16,9)}</h2>
+      <Titulo />
+      <Somar />
     </div>
     
   )
