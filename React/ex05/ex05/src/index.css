@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+
+.h1{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.container{
+  display: flex;
+  width: 400px;
+  height: auto;
+  background-color: lightgray;
+  flex-direction: column;
+  padding: 50px;
+
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+#email{
+  height: 30px;margin: 20px 0px;
+
+}
+
+#comments{
+ margin: 20px 0px;
+}
+
+#botao{
+margin: 20px 0px;
+padding: 10px 0px;
+
+}
